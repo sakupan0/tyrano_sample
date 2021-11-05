@@ -69,6 +69,8 @@
 
 めでたしめでたし。[r]
 
+【 GOOD END 】[l][cm]
+
 [jump target=*start]
 
 【 GOOD END 】[l][cm]
