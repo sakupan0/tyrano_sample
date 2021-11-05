@@ -1,46 +1,86 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="桃太郎（仮）"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「桃太郎（仮）」[l][r]
 
-メロスは激怒した。[l][r]
+昔々あるところに、おじいさんとおばあさんがいました。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+おじいさんは山へ芝刈りに、おばあさんは川へ洗濯に行きました。[l][r]
 
-(中略)[l][r]
+おばあさんが川で洗濯をしていると、どんぶらこ、どんぶらこと、大きな桃が流れてきました。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+おばあさんは…[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_pick] →拾う [endlink][r]
+[link target=*tag_through] →スルーする [endlink][r]
 [s]
 
-*tag_sleep
+*tag_pick
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=house.jpeg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+おばあさんは桃を拾い、家に持ち帰りました。[l][r]
+そして、おばあさんは…[l][r]
+
+[link target=*tag_cutm] →桃の真ん中をズバッと斬る。 [endlink][r]
+[link target=*tag_cut] →桃太郎がいる前提の切り方をする。 [endlink][r]
+[s]
+
+*tag_cutm
+
+[bg storage=haka.jpeg time=500]
+
+[cm]
+
+中にいた桃太郎は切られ、亡くなってしまいました。[l][r]
+残念。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_cut
 
-[bg storage=run.jpg time=500]
+[bg storage=yama.jpeg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+おばあさんの丁寧な切り方のおかげで桃太郎は元気に生まれ、その後なんやかんやで成長しました。[l][r]
+
+正義感がとても強い桃太郎は、鬼ヶ島がやばいという話を聞いて、退治しに行くことにしました。[l][r]
+
+鬼ヶ島に動物と行くのは流石に不安だったようで、桃太郎は屈強な戦士たちを連れて鬼ヶ島に向かいました。[l][r]
+
+
+
+[bg storage=sennsi.jpeg time=500]
+
+[cm]
+
+鬼ヶ島に桃太郎たちがつくと、戦士たちに恐れた鬼たちは、あっさりと降参しました。[l][r]
+
+桃太郎は大喜びして、財宝を大量に持ち帰りました。[l][r]
+
+めでたしめでたし。[r]
+
+[jump target=*start]
 
 【 GOOD END 】[l][cm]
+
+*tag_through
+
+[bg storage=sea.jpeg time=500]
+
+[cm]
+桃は海へと流れてしまい、桃太郎が生まれることはありませんでした。[l][r]
+残念。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
